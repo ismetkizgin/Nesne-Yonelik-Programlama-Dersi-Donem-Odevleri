@@ -22,12 +22,9 @@ namespace WindowsFormsApp1
 
         private void btnUyeOl_Click(object sender, EventArgs e)
         {
-            
             if (txtSifre.Text == txtSifreTekrar.Text)
             {
                 musteri.kullanici_ekle(txtKullaniciAdi.Text, txtSifre.Text, rutbe);
-                Giris frm = new Giris();
-                frm.giris_kontrol();
                 MessageBox.Show("Üyelik işleminiz gerçekliştirilmiştir keyifli alışverişler dileriz", "Üye Ol");
                 this.Close();
             }

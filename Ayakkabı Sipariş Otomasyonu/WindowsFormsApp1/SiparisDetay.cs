@@ -10,17 +10,6 @@ namespace WindowsFormsApp1
 {
     class SiparisDetay
     {
-        private Siparis sipariS;
-        private Siparis siparis
-        {
-            get
-            {
-                if (sipariS == null)
-                    sipariS = new Siparis();
-                return sipariS;
-            }
-        }
-
         private Cek ceK;
         private Cek cek
         {
@@ -163,6 +152,25 @@ namespace WindowsFormsApp1
                 }
             }
             oku.Close();
+            if (bilgi.Length > 0)
+            {
+                Array.Resize(ref sipariodemebilgi, sipariodemebilgi.Length + 1);
+                sipariodemebilgi[sipariodemebilgi.Length - 1].sipari_kodu = bilgi[0];
+                sipariodemebilgi[sipariodemebilgi.Length - 1].odeme_turu = bilgi[1];
+
+                switch (bilgi[1])
+                {
+                    case "1":
+                        sipariodemebilgi[sipariodemebilgi.Length - 1].cek_sahibi = bilgi[2];
+                        sipariodemebilgi[sipariodemebilgi.Length - 1].banka_adi = bilgi[3];
+                        break;
+                    case "2":
+                        sipariodemebilgi[sipariodemebilgi.Length - 1].kredi_numarasi = bilgi[2];
+                        sipariodemebilgi[sipariodemebilgi.Length - 1].tarih = bilgi[3];
+                        sipariodemebilgi[sipariodemebilgi.Length - 1].taksit = bilgi[4];
+                        break;
+                }
+            }
         }
 
         public void detay_kayit(string siparis_kodu, ListView lst)

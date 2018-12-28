@@ -56,7 +56,6 @@ namespace WindowsFormsApp1
             }
         }
 
-
         private SiparisDetay Siparisdetay;
         public SiparisDetay siparisdetay
         {
@@ -97,12 +96,11 @@ namespace WindowsFormsApp1
                         siparisbilgi[siparisbilgi.Length - 1].telefon = bilgi[5];
                         siparisbilgi[siparisbilgi.Length - 1].adres = bilgi[6];
                     }
-                        Array.Resize(ref bilgi, 1);
-                        bilgi[bilgi.Length - 1] = satir;
-                        satir = oku.ReadLine();
+                    Array.Resize(ref bilgi, 1);
+                    bilgi[bilgi.Length - 1] = satir;
+                    satir = oku.ReadLine();
                 }
             }
-
             oku.Close();
 
             if (bilgi.Length > 0)

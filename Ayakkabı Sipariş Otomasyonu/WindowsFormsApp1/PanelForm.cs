@@ -22,12 +22,6 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-        private void btnYoneticiEkle_Click(object sender, EventArgs e)
-        {
-            UyeOlForm frm = new UyeOlForm("1");
-            frm.ShowDialog();
-        }
-
         private void PanelForm_Load(object sender, EventArgs e)
         {
             Musteri musteri = new Musteri();
@@ -37,6 +31,12 @@ namespace WindowsFormsApp1
                 btnUrunIslemleri.Visible = false;
                 this.Size = new Size(238, 142);
             }
+        }
+
+        private void btnYoneticiEkle_Click(object sender, EventArgs e)
+        {
+            UyeOlForm frm = new UyeOlForm("1");
+            frm.ShowDialog();
         }
 
         private void btnSiparisVer_Click(object sender, EventArgs e)

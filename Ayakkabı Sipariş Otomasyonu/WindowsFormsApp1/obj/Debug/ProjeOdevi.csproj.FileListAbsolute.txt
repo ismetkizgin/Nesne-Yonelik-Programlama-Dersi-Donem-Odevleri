@@ -1,0 +1,17 @@
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\bin\Debug\ProjeOdevi.exe.config
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\bin\Debug\ProjeOdevi.exe
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\bin\Debug\ProjeOdevi.pdb
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.csprojAssemblyReference.cache
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Giris.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Intro.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SiparisOnayFormu.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SiparisVerForm.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PanelForm.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.Properties.Resources.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SiparisListesiForm.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UyeOlForm.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UrunIslemleriForm.resources
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.csproj.GenerateResource.cache
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.csproj.CoreCompileInputs.cache
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.exe
+C:\Users\ismet\Desktop\Ayakkabı Sipariş Otomasyonu\WindowsFormsApp1\obj\Debug\ProjeOdevi.pdb

@@ -22,12 +22,6 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        
-        private void KullaniciIslemleri_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            PanelForm frm = new PanelForm();
-            frm.Show();
-        }
 
         private void KullaniciIslemleri_Load(object sender, EventArgs e)
         {
@@ -230,6 +224,12 @@ namespace WindowsFormsApp1
             lblSKTarihANDBankaAdi.Text = "S.K. Tarihi";
             lblKardNumarasıANDCekSahibi.Text = "Kredi Kartı Numarası";
             lblKardNumarasıANDCekSahibi.Location = new Point(198,32);
+        }
+
+        private void KullaniciIslemleri_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PanelForm frm = new PanelForm();
+            frm.Show();
         }
     }
 }

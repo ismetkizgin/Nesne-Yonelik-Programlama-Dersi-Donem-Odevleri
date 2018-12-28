@@ -29,30 +29,6 @@ namespace WindowsFormsApp1
             Application.Exit();
         }
 
-        private void btnGiris_Click(object sender, EventArgs e)
-        {
-            giris_kontrol();
-            for (int i = 0; i < yoneticiler.Length; i++)
-            {
-                if (txtKullaniciAdi.Text == yoneticiler[i] && txtParola.Text == sifre[i])
-                {
-                    musteri.musteri_kodu = musteri_kodu[i];
-                    musteri.rutbe = rutbe[i];
-                    PanelForm frm = new PanelForm();
-                    frm.Show();
-                    this.Hide();
-                    break;
-                }
-                else
-                {
-                    if (i == yoneticiler.Length -1)
-                    {
-                        MessageBox.Show("Kullanıcı bilgilerini doğru girdiğinizden emin olunuz !","Hatalı Giriş");
-                    }
-                }
-            }
-        }
-
         public void giris_kontrol()
         {
             StreamReader oku = MetinIslemleri.sr(@"belgeler\\giris.txt");
@@ -90,9 +66,32 @@ namespace WindowsFormsApp1
             oku.Close();
         }
 
+        private void btnGiris_Click(object sender, EventArgs e)
+        {
+            giris_kontrol();
+            for (int i = 0; i < yoneticiler.Length; i++)
+            {
+                if (txtKullaniciAdi.Text == yoneticiler[i] && txtParola.Text == sifre[i])
+                {
+                    musteri.musteri_kodu = musteri_kodu[i];
+                    musteri.rutbe = rutbe[i];
+                    PanelForm frm = new PanelForm();
+                    frm.Show();
+                    this.Hide();
+                    break;
+                }
+                else
+                {
+                    if (i == yoneticiler.Length -1)
+                    {
+                        MessageBox.Show("Kullanıcı bilgilerini doğru girdiğinizden emin olunuz !","Hatalı Giriş");
+                    }
+                }
+            }
+        }
+
         private void lblUyeOl_Click(object sender, EventArgs e)
         {
-
             UyeOlForm frm = new UyeOlForm("0");
             frm.ShowDialog();
         }

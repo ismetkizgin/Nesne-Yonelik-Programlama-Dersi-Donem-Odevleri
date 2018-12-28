@@ -25,6 +25,7 @@ namespace WindowsFormsApp1
                 Isim = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Isim);
             }
         }
+
         private static string Adres;
         private static string Telefon;
         private static string Musteri_Kodu;
