@@ -1,9 +1,9 @@
-Topuklu
-12
+Bot
+70
 1.2
-Araba
-1221
-2.1
-asd
-12.2
-12
+Topuklu Ayakkabi
+80
+0.9
+Babet
+20
+0.5
